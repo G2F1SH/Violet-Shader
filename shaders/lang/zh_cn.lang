@@ -1,7 +1,14 @@
 # Sundial Language File : Simplified Chinese
 
+option.VioletVersion=Violet Shader
+value.VioletVersion.0=§aSundial Lite EDIT
+value.VioletVersion.1=§aSundial Lite EDIT\
+
+option.VioletedVersion=版本
+value.VioletedVersion.0=§bv0.2.3
+value.VioletedVersion.1=§bv0.2.3
 screen.MORESUPPORT=杂项
-screen.Texture=纹理
+screen.Texture=材质
 screen.Texture.comment=纹理分辨率与PBR、法线、视差等
 screen.PlantWave=植物晃动
 screen.Water=水
@@ -43,7 +50,8 @@ screen.Weather=天气
 screen.ModSupport=Mod支持
 screen.ModSupport.comment=自动检测Mod方块的属性
 screen.Experimental=实验性效果
-screen.SelentLine=选择框描边
+screen.SelentLine=选择框描边§b>>
+screen.MovieMd=电影模式设置§b>>
 option.SELECTION_BOX_COLOR_B=蓝色强度
 option.SELECTION_BOX_COLOR_G=绿色强度
 option.SELECTION_BOX_COLOR_R=红色强度
@@ -61,7 +69,6 @@ option.colorMax=颜色饱和(仅彩虹)
 
 profile.MOVIEMODE=§a电影模式
 profile.offMOVIEMODE=§b默认
-option.EDIT=修改
 screen.Watersetting_new=水体
 option.ScreenOverlay=电影挡条
 value.ScreenOverlay.0=§4关
@@ -70,7 +77,6 @@ option.LETTERBOX_RATIO=电影挡条比例
 option.VioletTitle=显示标题
 value.VioletTitle.0=§4关
 value.VioletTitle.1=§a开
-
 
 # Texture
 option.ENTITY_TEXTURE_RESOLUTION=实体纹理分辨率
@@ -104,6 +110,7 @@ option.WATER_WAVE_HEIGHT=水波高度系数
 option.WATER_WAVE_SPEED=水波速度
 option.OCEAN_DRAG_MULT=波浪拖拽系数
 option.OCEAN_WAVE_ITERATIONS=波浪叠加系数
+option.WATERINOUT=波浪离散系数
 # Normal
 option.NORMAL_STRENGTH=法线强度
 option.NORMAL_FORMAT=法线格式
